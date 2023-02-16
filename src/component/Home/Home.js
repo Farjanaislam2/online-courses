@@ -38,7 +38,7 @@ const Home = () => {
     </div>
   </div> 
   <div id="slide4" className="carousel-item relative w-full">
-  <img src={images} className="w-full" />
+  <img src={images} className="lg:w-full" />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide3" className="btn btn-circle">❮</a> 
       <a href="#slide1" className="btn btn-circle">❯</a>
@@ -46,13 +46,13 @@ const Home = () => {
   </div>
 </div>
 
-<div class="relative justify-center align-middle sm:mt-96 lg:ml-80" style={{marginTop: '-300px'}}>
+<div class="relative justify-center align-middle  lg:ml-80" style={{marginTop: '-300px'}}>
   <form>
     <div class="max-w-xl">
       <div class="flex space-x-4">
-        <div class="flex rounded-full border-1 border-black overflow-hidden w-full">
-          <input type="text" class="w-full rounded-md rounded-r-none" />
-          <button class="bg-black text-white px-6 text-lg font-semibold py-4 rounded-r-md">Search</button>
+        <div class="flex rounded-full border-1  mt-52 border-black overflow-hidden w-full">
+          <input type="text" class="w-72 h-6 rounded-md rounded-r-none" />
+          <button class="bg-black text-white w-72 h-6 px-6 text-lg font-semibold py-4 rounded-r-md">Search</button>
         </div>
         
       </div>
@@ -95,6 +95,7 @@ const Home = () => {
 <Logos></Logos>
 <Card3></Card3>
 <Team></Team>
+<CardBanner></CardBanner>
 
         </div>
     );

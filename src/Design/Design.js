@@ -1,9 +1,16 @@
-import React from 'react';
+import React from "react";
 
 const Design = () => {
-    return (
-        <div>
-              <div className="flex gap-1 mt-10 justify-evenly bg-white text-white"style={{gap:'1px'}}>
+  return (
+    <div>
+       <div>
+            <h1 className='text-center text-3xl
+            font-bold'>Design</h1>
+        </div>
+      <div
+        className="flex gap-1 mt-10 justify-evenly bg-white text-white"
+        style={{ gap: "1px" }}
+      >
         <div
           className="p-3 text-center hover:font-bold w-full"
           style={{ backgroundColor: "#530A0A" }}
@@ -59,8 +66,8 @@ const Design = () => {
           <h1>Mockup</h1>
         </div>
       </div>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Design;
