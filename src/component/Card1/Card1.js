@@ -13,9 +13,9 @@ const Card1 = () => {
    <div className="border-b-2 pb-10 border-white">
      <div className="grid mt-20 lg:pl-8 lg:pr-8 gap-12 lg:grid-cols-4 grid-cols-2 container">
     
-    <div className="card  bg-base-100 shadow-xl">
+    <div className="card  bg-white text-black shadow-xl">
   <figure><img className="w-full" src={images} alt="Shoes" /></figure>
-  <div className="card-body">
+  <div className="card-body p-2">
     <h2 className="card-title">
     Shopping Web Templete
     </h2>
@@ -28,7 +28,7 @@ const Card1 = () => {
   </div>
 </div>
      
-      <div className="card  bg-base-100 shadow-xl">
+      <div className="card  bg-white shadow-xl">
   <figure><img className="w-full" src={images1} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -42,7 +42,7 @@ const Card1 = () => {
     </div>
   </div>
 </div>
-      <div className="card  bg-base-100 shadow-xl">
+      <div className="card  bg-white shadow-xl">
   <figure><img className="w-full" src={images2} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -56,7 +56,7 @@ const Card1 = () => {
     </div>
   </div>
 </div>
-      <div className="card  bg-base-100 shadow-xl">
+      <div className="card  bg-white shadow-xl">
   <figure><img className="w-full" src={images3} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -70,7 +70,7 @@ const Card1 = () => {
     </div>
   </div>
 </div>
-      <div className="card  bg-base-100 shadow-xl">
+      <div className="card  bg-white shadow-xl">
   <figure><img className="w-full" src={images4} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -84,7 +84,7 @@ const Card1 = () => {
     </div>
   </div>
 </div>
-      <div className="card  bg-base-100 shadow-xl">
+      <div className="card  bg-white shadow-xl">
   <figure><img className="w-full" src={images5} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -98,7 +98,7 @@ const Card1 = () => {
     </div>
   </div>
 </div>
-      <div className="card  bg-base-100 shadow-xl">
+      <div className="card  bg-white shadow-xl">
   <figure><img className="w-full" src={images6} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -112,7 +112,7 @@ const Card1 = () => {
     </div>
   </div>
 </div>
-      <div className="card  bg-base-100 shadow-xl">
+      <div className="card  bg-white shadow-xl">
   <figure><img className="w-full" src={images7} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">

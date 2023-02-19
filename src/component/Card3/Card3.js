@@ -9,6 +9,7 @@ const Card3 = () => {
           <img className="w-full" src={images} alt="Shoes" />
         </figure>
 
+
         <figure>
           <img className="w-full" src={images} alt="Shoes" />
         </figure>

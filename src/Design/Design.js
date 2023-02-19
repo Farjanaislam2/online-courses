@@ -24,43 +24,43 @@ const Design = () => {
           <h1>UI UX</h1>
         </div>
         <div
-          className="p-3 text-center hover:font-bold w-full"
+          className="p-3 text-center lg:flex hidden  hover:font-bold w-full"
           style={{ backgroundColor: "#530A0A" }}
         >
           <h1>3d Design</h1>
         </div>
         <div
-          className="p-3 text-center hover:font-bold w-full"
+          className="p-3  text-center hover:font-bold w-full"
           style={{ backgroundColor: "#530A0A" }}
         >
           <h1>Product</h1>
         </div>
         <div
-          className="p-3 text-center hover:font-bold w-full"
+          className="p-3  text-center hover:font-bold w-full"
           style={{ backgroundColor: "#530A0A" }}
         >
           <h1>Logo</h1>
         </div>
         <div
-          className="p-3 text-center hover:font-bold w-full"
+          className="p-3  text-center lg:flex hidden hover:font-bold w-fulll"
           style={{ backgroundColor: "#530A0A" }}
         >
           <h1>Graphics</h1>
         </div>
         <div
-          className="p-3 text-center hover:font-bold w-full"
+          className=" lg:flex hidden p-3 text-center hover:font-bold w-full"
           style={{ backgroundColor: "#530A0A" }}
         >
           <h1>Animation</h1>
         </div>
         <div
-          className="p-3 text-center hover:font-bold w-full"
+          className="p-3 text-center lg:flex hidden hover:font-bold w-full"
           style={{ backgroundColor: "#530A0A" }}
         >
           <h1>Packaging</h1>
         </div>
         <div
-          className="p-3 text-center hover:font-bold w-full"
+          className="p-3 lg:flex hidden text-center hover:font-bold w-full"
           style={{ backgroundColor: "#530A0A" }}
         >
           <h1>Mockup</h1>
