@@ -1,18 +1,18 @@
-import React from "react";
-import images from "../images/shopping.png";
-import images1 from "../images/school.png";
-import images2 from "../images/gaming.png";
-import images3 from "../images/gaming2.png";
-import images4 from "../images/marketing.png";
-import images5 from "../images/food.png";
-import images6 from "../images/hotel.png";
-import images7 from "../images/hotel2.png";
-import { Link } from "react-router-dom";
+import React from 'react';
+import images from "../images/babu.png";
+import images1 from "../images/babu4.png";
+import images2 from "../images/babu2.png";
+import images3 from "../images/babu3.png";
+import images4 from "../images/hotel2.png";
+import images5 from "../images/black.png";
+import images6 from "../images/cart.png";
+import images7 from "../images/verne.png";
 
-const Card1 = () => {
-  return (
-  <div>
-     <div className="border-b-2 pb-10 border-white">
+const Categorycard = () => {
+    return (
+        <div>
+             <div>
+     <div className=" pb-10">
      <div className="grid mt-20 lg:pl-8 lg:pr-8 gap-12 lg:grid-cols-4 grid-cols-2 container">
     
     <div className="card  bg-white text-black shadow-xl">
@@ -154,15 +154,12 @@ const Card1 = () => {
 </div>
 
     </div>
-<div className="flex justify-center">
- <a className="text-center text-white rounded-lg p-2 mt-10 lg:text-xl w-1/4" href="/categories" style={{ backgroundColor: "#530A0A" }}><h1  >see more</h1></a>
 
-
-</div>
    </div>
-   <h1 className="text-3xl text-black font-bold text-center mt-4">Our Partner</h1>
+   
   </div>
-  );
+        </div>
+    );
 };
 
-export default Card1;
+export default Categorycard;

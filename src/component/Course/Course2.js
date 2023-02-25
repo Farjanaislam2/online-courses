@@ -54,7 +54,7 @@ const Courde2 = () => {
           <h1>Flutter</h1>
         </div>
         <div
-          className="p-3 lg:flex justify-center hidden text-center hover:font-bold w-full"
+          className="p-3 lg:flex  hidden text-center hover:font-bold w-full"
           style={{ backgroundColor: "#530A0A" }}
         >
           <h1>Wordpress</h1>

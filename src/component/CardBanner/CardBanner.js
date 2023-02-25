@@ -4,7 +4,7 @@ import images1 from "../images/flutter1.png";
 
 const CardBanner = () => {
     return (
-    <div className='mb-10 lg:mb-1'>
+    <d iv className='mb-10 lg:mb-1'>
             <div className='grid lg:grid-cols-2 mt-16 gap-10'>
             <div className='lg:grid w-auto
             ' >
@@ -16,7 +16,7 @@ const CardBanner = () => {
             </div>
         </div>
        
-    </div>
+    </d>
     );
 };
 

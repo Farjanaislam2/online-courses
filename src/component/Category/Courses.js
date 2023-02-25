@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import images from "../images/shopping.png";
 import images1 from "../images/school.png";
 import images2 from "../images/gaming.png";
@@ -7,12 +7,28 @@ import images4 from "../images/marketing.png";
 import images5 from "../images/food.png";
 import images6 from "../images/hotel.png";
 import images7 from "../images/hotel2.png";
-import { Link } from "react-router-dom";
 
-const Card1 = () => {
-  return (
-  <div>
-     <div className="border-b-2 pb-10 border-white">
+
+const Courses = () => {
+    return (
+        <div>
+          <div>
+          <button className='text-black hover:border-2 rounded-3xl mt-3  mr-1 border border-black pl-9 pr-9 pt-1 pb-2 '>Java</button>
+            <button className='text-black hover:border-2 rounded-3xl mt-3  mr-1 border border-black pl-9 pr-9 pt-1 pb-2 '>Graphics</button>
+            <button className='text-black hover:border-2 rounded-3xl mt-3  mr-1 border border-black pl-9 pr-9 pt-1 pb-2 '>Theme</button>
+            <button className='text-black hover:border-2 rounded-3xl mt-3  mr-1 border border-black pl-9 pr-9 pt-1 pb-2 '>UI/UX</button>
+            <button className='text-black hover:border-2 rounded-3xl mt-3  mr-1 border border-black pl-9 pr-9 pt-1 pb-2'>Node js</button>
+            <button className='text-black hover:border-2 rounded-3xl mt-3  mr-1 border border-black pl-9 pr-9 pt-1 pb-2 '>Laravel</button>
+            <button className='text-black hover:border-2 rounded-3xl mt-3  mr-1 border border-black pl-9 pr-9 pt-1 pb-2 '>Animation</button>
+            <button className='text-black hover:border-2 rounded-3xl mt-3  mr-1 border border-black pl-9 pr-9 pt-1 pb-2 '>Mongo</button>
+            <button className='text-black hover:border-2 rounded-3xl mt-3  mr-1 border border-black pl-9 pr-9 pt-1 pb-2 '>Theme</button>
+            <button className='text-black hover:border-2 rounded-3xl mt-3  mr-1 border border-black pl-9 pr-9 pt-1 pb-2 '>Templete</button>
+             <button className='text-black hover:border-2 rounded-3xl mt-3  mr-1 border border-black pl-9 pr-9 pt-1 pb-2 '>Photo</button>
+             <button className='text-black hover:border-2 rounded-3xl mt-3 border border-black mt-3  pl-9 pr-9 pt-1 pb-2 '>Video</button>
+          </div>
+          <div>
+             <div>
+     <div className=" pb-10 ">
      <div className="grid mt-20 lg:pl-8 lg:pr-8 gap-12 lg:grid-cols-4 grid-cols-2 container">
     
     <div className="card  bg-white text-black shadow-xl">
@@ -154,15 +170,13 @@ const Card1 = () => {
 </div>
 
     </div>
-<div className="flex justify-center">
- <a className="text-center text-white rounded-lg p-2 mt-10 lg:text-xl w-1/4" href="/categories" style={{ backgroundColor: "#530A0A" }}><h1  >see more</h1></a>
 
-
-</div>
    </div>
-   <h1 className="text-3xl text-black font-bold text-center mt-4">Our Partner</h1>
+   
   </div>
-  );
+          </div>
+        </div>
+    );
 };
 
-export default Card1;
+export default Courses;

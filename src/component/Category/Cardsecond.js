@@ -1,17 +1,18 @@
-import React from "react";
-import images from "../images/shopping.png";
-import images1 from "../images/school.png";
-import images2 from "../images/gaming.png";
-import images3 from "../images/gaming2.png";
-import images4 from "../images/marketing.png";
-import images5 from "../images/food.png";
-import images6 from "../images/hotel.png";
-import images7 from "../images/hotel2.png";
-import { Link } from "react-router-dom";
+import React from 'react';
+import images from "../images/abstract-logo.png";
+import images1 from "../images/animate-graphics.png";
+import images2 from "../images/animation.png";
+import images3 from "../images/flyer.png";
+import images4 from "../images/grla.png";
+import images5 from "../images/hotel-booking.png";
+import images6 from "../images/graphicsd.png";
+import images7 from "../images/buisness-card.png";
+import images8 from "../images/cover-page2.png";
 
-const Card1 = () => {
-  return (
-  <div>
+const Cardsecond = () => {
+    return (
+        <div>
+         <div>
      <div className="border-b-2 pb-10 border-white">
      <div className="grid mt-20 lg:pl-8 lg:pr-8 gap-12 lg:grid-cols-4 grid-cols-2 container">
     
@@ -160,9 +161,12 @@ const Card1 = () => {
 
 </div>
    </div>
-   <h1 className="text-3xl text-black font-bold text-center mt-4">Our Partner</h1>
+   <div className='p-10 '>
+    <img className='border-2 hover:border-blue-500' src={images8} alt=""/>
+   </div>
   </div>
-  );
+        </div>
+    );
 };
 
-export default Card1;
+export default Cardsecond;

@@ -18,6 +18,7 @@ import images6 from "../images/logo5.png";
 const Brand = () => {
   return (
     <div className="lg:pl-10 hidden lg:flex mt-10">
+      
       <Swiper
         modules={[Navigation, Pagination,  A11y, Autoplay]}
         spaceBetween={5}
@@ -100,6 +101,7 @@ const Brand = () => {
           </div>
         </SwiperSlide>
       </Swiper>
+      
     </div>
   );
 };
