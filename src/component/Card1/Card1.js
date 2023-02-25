@@ -10,11 +10,15 @@ import images7 from "../images/hotel2.png";
 
 const Card1 = () => {
   return (
-   <div className="border-b-2 pb-10 border-white">
+  <div>
+     <div className="border-b-2 pb-10 border-white">
      <div className="grid mt-20 lg:pl-8 lg:pr-8 gap-12 lg:grid-cols-4 grid-cols-2 container">
     
     <div className="card  bg-white text-black shadow-xl">
   <figure><img className="w-full" src={images} alt="Shoes" /></figure>
+  <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
+   <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
+  </div>
   <div className="card-body p-2">
     <h2 className="card-title">
     Shopping Web Templete
@@ -28,9 +32,12 @@ const Card1 = () => {
   </div>
 </div>
      
-      <div className="card  bg-white shadow-xl">
+      <div className="card text-black bg-white shadow-xl">
   <figure><img className="w-full" src={images1} alt="Shoes" /></figure>
-  <div className="card-body">
+ <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
+   <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
+  </div>
+  <div className="card-body p-2">
     <h2 className="card-title">
    School Web Templete
     </h2>
@@ -42,9 +49,12 @@ const Card1 = () => {
     </div>
   </div>
 </div>
-      <div className="card  bg-white shadow-xl">
+      <div className="card text-black  bg-white shadow-xl">
   <figure><img className="w-full" src={images2} alt="Shoes" /></figure>
-  <div className="card-body">
+ <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
+   <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
+  </div>
+  <div className="card-body p-2">
     <h2 className="card-title">
     Gaming Web Templete
     </h2>
@@ -56,9 +66,12 @@ const Card1 = () => {
     </div>
   </div>
 </div>
-      <div className="card  bg-white shadow-xl">
+      <div className="card text-black bg-white shadow-xl">
   <figure><img className="w-full" src={images3} alt="Shoes" /></figure>
-  <div className="card-body">
+ <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
+   <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
+  </div>
+  <div className="card-body p-2">
     <h2 className="card-title">
     Gaming Web Templete
     </h2>
@@ -70,9 +83,12 @@ const Card1 = () => {
     </div>
   </div>
 </div>
-      <div className="card  bg-white shadow-xl">
+      <div className="card text-black bg-white shadow-xl">
   <figure><img className="w-full" src={images4} alt="Shoes" /></figure>
-  <div className="card-body">
+ <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
+   <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
+  </div>
+  <div className="card-body p-2">
     <h2 className="card-title">
     Marketing Web Templete
     </h2>
@@ -84,9 +100,12 @@ const Card1 = () => {
     </div>
   </div>
 </div>
-      <div className="card  bg-white shadow-xl">
+      <div className="card  text-black bg-white shadow-xl">
   <figure><img className="w-full" src={images5} alt="Shoes" /></figure>
-  <div className="card-body">
+ <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
+   <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
+  </div>
+  <div className="card-body p-2">
     <h2 className="card-title">
     Restuarent Web Templete
     </h2>
@@ -98,9 +117,12 @@ const Card1 = () => {
     </div>
   </div>
 </div>
-      <div className="card  bg-white shadow-xl">
+      <div className="card text-black bg-white shadow-xl">
   <figure><img className="w-full" src={images6} alt="Shoes" /></figure>
-  <div className="card-body">
+ <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
+   <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
+  </div>
+  <div className="card-body p-2">
     <h2 className="card-title">
     Hotel Web Templete
     </h2>
@@ -112,9 +134,12 @@ const Card1 = () => {
     </div>
   </div>
 </div>
-      <div className="card  bg-white shadow-xl">
+      <div className="card text-black bg-white shadow-xl">
   <figure><img className="w-full" src={images7} alt="Shoes" /></figure>
-  <div className="card-body">
+ <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
+   <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
+  </div>
+  <div className="card-body p-2">
     <h2 className="card-title">
     Hotel Web Templete
     </h2>
@@ -129,9 +154,11 @@ const Card1 = () => {
 
     </div>
 <div className="flex justify-center">
-<h1 className="text-center text-white rounded-lg p-2 mt-10 text-3xl w-1/3" style={{ backgroundColor: "#530A0A" }}>see more</h1>
+<h1 className="text-center text-white rounded-lg p-2 mt-10 lg:text-xl w-1/4" style={{ backgroundColor: "#530A0A" }}>see more</h1>
 </div>
    </div>
+   <h1 className="text-3xl text-black font-bold text-center mt-4">Our Partner</h1>
+  </div>
   );
 };
 

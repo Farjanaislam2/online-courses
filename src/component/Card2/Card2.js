@@ -14,9 +14,12 @@ const Card2 = () => {
           <div className='border-b-2 pb-10 border-white'>
         <div className="grid mt-20 lg:pl-8 lg:pr-8 gap-12 lg:grid-cols-4 grid-cols-2 container">
        
-       <div className="card  bg-base-100 shadow-xl">
+       <div className="card  bg-white text-black shadow-xl">
      <figure><img className="w-full" src={images} alt="Shoes" /></figure>
-     <div className="card-body">
+   <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
+   <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
+  </div>
+     <div className="card-body p-">
        <h2 className="card-title">
        Logo Design
        </h2>
@@ -29,9 +32,12 @@ const Card2 = () => {
      </div>
    </div>
         
-         <div className="card  bg-base-100 shadow-xl">
+         <div className="card bg-white text-black shadow-xl">
      <figure><img className="w-full" src={images1} alt="Shoes" /></figure>
-     <div className="card-body">
+   <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
+   <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
+  </div>
+     <div className="card-body ">
        <h2 className="card-title">
        Animate Graphics
        </h2>
@@ -43,9 +49,12 @@ const Card2 = () => {
        </div>
      </div>
    </div>
-         <div className="card  bg-base-100 shadow-xl">
+         <div className="card bg-white text-black shadow-xl">
      <figure><img className="w-full" src={images2} alt="Shoes" /></figure>
-     <div className="card-body">
+   <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
+   <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
+  </div>
+     <div className="card-body p-2">
        <h2 className="card-title">
        Animation Design
        </h2>
@@ -57,9 +66,12 @@ const Card2 = () => {
        </div>
      </div>
    </div>
-         <div className="card  bg-base-100 shadow-xl">
+         <div className="card bg-white text-black shadow-xl">
      <figure><img className="w-full" src={images3} alt="Shoes" /></figure>
-     <div className="card-body">
+   <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
+   <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
+  </div>
+     <div className="card-body p-2">
        <h2 className="card-title">
        Flyer Design
        </h2>
@@ -71,9 +83,12 @@ const Card2 = () => {
        </div>
      </div>
    </div>
-         <div className="card  bg-base-100 shadow-xl">
+         <div className="card bg-white text-black shadow-xl">
      <figure><img className="w-full" src={images4} alt="Shoes" /></figure>
-     <div className="card-body">
+   <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
+   <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
+  </div>
+     <div className="card-body p-2">
        <h2 className="card-title">
        Graphics La ndscape
        </h2>
@@ -85,9 +100,12 @@ const Card2 = () => {
        </div>
      </div>
    </div>
-         <div className="card  bg-base-100 shadow-xl">
+         <div className="card bg-white text-black shadow-xl">
      <figure><img className="w-full" src={images5} alt="Shoes" /></figure>
-     <div className="card-body">
+   <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
+   <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
+  </div>
+     <div className="card-body p-2">
        <h2 className="card-title">
        Hotel Booking Web Template
        </h2>
@@ -99,9 +117,12 @@ const Card2 = () => {
        </div>
      </div>
    </div>
-         <div className="card  bg-base-100 shadow-xl">
+         <div className="card bg-white text-black shadow-xl">
      <figure><img className="w-full" src={images6} alt="Shoes" /></figure>
-     <div className="card-body">
+   <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
+   <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
+  </div>
+     <div className="card-body p-2">
        <h2 className="card-title">
       Graphics Design
        </h2>
@@ -113,11 +134,14 @@ const Card2 = () => {
        </div>
      </div>
    </div>
-         <div className="card  bg-base-100 shadow-xl">
+         <div className="card bg-white text-black shadow-xl">
      <figure><img className="w-full" src={images7} alt="Shoes" /></figure>
-     <div className="card-body">
+   <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
+   <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
+  </div>
+     <div className="card-body p-2">
        <h2 className="card-title">
-       Busness Card Design
+       Buisness Card Design
        </h2>
        <p className="text-blue-700">
              17895+ views
@@ -130,12 +154,12 @@ const Card2 = () => {
    
        </div>
    <div className="flex justify-center">
-   <h1 className="text-center  text-white rounded-lg p-2 mt-10 text-3xl w-1/3" style={{ backgroundColor: "#530A0A" }}>see more</h1>
+   <h1 className="text-center  text-white rounded-lg 22 mt-10 lg:text-xl p-2 w-1/4" style={{ backgroundColor: "#530A0A" }}>see more</h1>
    </div>
  
       </div>
       <div>
-    <h1 className='text-3xl text-center font-bold mt-10'>Our Brand</h1>
+    <h1 className='lg:text-3xl text-black text-center font-bold mt-10'>Our Brand</h1>
    </div>
       </div>
     );

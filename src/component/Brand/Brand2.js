@@ -27,9 +27,9 @@ const Brand2 = () => {
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >
-        <SwiperSlide>
-          <div className="col-1  w-full  bg-white">
-            <img className="" src={images1} alt="" />
+        <SwiperSlide className="">
+          <div className="col-1 w-full  bg-white">
+            <img className="p-1" src={images1} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -38,19 +38,19 @@ const Brand2 = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="col-1 bg-white p-2 pt-6 pb-4">
+          <div className="col-1 bg-white pt-4 pb-2">
             <img className=" " src={images3} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="col-1 pt-4  bg-white w-14">
-            <img className="" src={images4} alt="" />
+          <div className="col-1 bg-white w-12">
+            <img className="pt-1" src={images4} alt="" />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="col-1 ">
-            <img className="w-14 bg-white p-2" src={images6} alt="" />
+            <img className="w-10 bg-white " src={images6} alt="" />
           </div>
         </SwiperSlide>
       

@@ -39,7 +39,7 @@ const Card3 = () => {
         </figure>
       </div>
       <div className="flex justify-center">
-<h1 className="text-center text-white rounded-lg p-2 mt-10 text-3xl w-1/3" style={{ backgroundColor: "#530A0A" }}>Load more</h1>
+<h1 className="text-center text-white rounded-lg p-2 mt-10 lg:text-xl w-1/4" style={{ backgroundColor: "#530A0A" }}>Load more</h1>
 </div>
     </div>
   );

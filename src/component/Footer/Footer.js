@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
       <footer
-        className="footer p-10 text-white"
+        className="footer pl-5 pr-10 pb-3 text-white"
         style={{ backgroundColor: "#530A0A" }}
       >
         <div className="ml-16 lg:hidden">
