@@ -16,6 +16,7 @@ import images12 from "../images/tanvir.png";
 const Team = () => {
   return (
     <div className="">
+      <h1 className="lg:text-2xl text-center font-bold mt-5 mb-5">Our Team</h1>
       <div className="hidden lg:grid">
         <div className="avatar my-10 flex justify-center align-middle gap-10">
           <div className="w-24 lg:flex hidden rounded-full">

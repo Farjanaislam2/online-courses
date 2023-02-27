@@ -12,10 +12,16 @@ const Nav = () => {
 
   const navLinks = (
     <>
+      <Link
+        className="hover:underline  lg:pr-12 text-white underline-offset-4"
+        to="/"
+      >
+        Home
+      </Link>
       <div className="dropdown dropdown-bottom dropdown-end">
         <label
           tabIndex={0}
-          className=" hover:underline lg:pr-7 text-white underline-offset-4"
+          className=" hover:underline lg:pl- lg:pr-12 text-white underline-offset-4"
         >
           Code
         </label>
@@ -56,7 +62,7 @@ const Nav = () => {
         </ul>
       </div>
       <Link
-        className="hover:underline lg:pl-7 lg:pr-7 text-white underline-offset-4"
+        className="hover:underline  lg:pr-12 text-white underline-offset-4"
         to="/"
       >
         Design
@@ -64,7 +70,7 @@ const Nav = () => {
       <div className="dropdown dropdown-bottom dropdown-end">
         <label
           tabIndex={0}
-          className=" hover:underline lg:pr-7 text-white underline-offset-4"
+          className=" hover:underline lg:pr-3 text-white underline-offset-4"
         >
           Technology
         </label>
@@ -114,13 +120,13 @@ const Nav = () => {
         </ul>
       </div>
       <Link
-        className="hover:underline lg:pl-7  text-white underline-offset-4"
+        className="hover:underline lg:pl-9  text-white underline-offset-4"
         to="/"
       >
         Photo
       </Link>
       <Link
-        className="hover:underline lg:pl-7 lg:pr-7 text-white underline-offset-4"
+        className="hover:underline lg:pl-12 lg:pr-12 text-white underline-offset-4"
         to="/"
       >
         Video
@@ -128,7 +134,7 @@ const Nav = () => {
       <div className="dropdown dropdown-bottom dropdown-end">
         <label
           tabIndex={0}
-          className=" hover:underline lg:pr-7 text-white underline-offset-4"
+          className=" hover:underline lg:pr-5 text-white underline-offset-4"
         >
           Audio
         </label>
@@ -151,7 +157,7 @@ const Nav = () => {
         </ul>
       </div>
       <Link
-        className="hover:underline lg:pl-7 lg:pr-7 text-white underline-offset-4"
+        className="hover:underline lg:pl-7 lg:pr-5 text-white underline-offset-4"
         to="/"
       >
         Theme
@@ -169,10 +175,10 @@ const Nav = () => {
         Bloging
       </Link>
 
-      <div className="dropdown dropdown-end">
+      <div className="dropdown dropdown-end pl-4">
         <label
           tabIndex={0}
-          className="text-white lg:flex hidden bg-black p-3 rounded-lg hover:bg-white hover:text-black mr-5"
+          className="text-white lg:flex hidden bg-black p-2 rounded-lg hover:bg-white hover:text-black mr-3 ml-2"
         >
           Login
         </label>
@@ -210,27 +216,26 @@ const Nav = () => {
               className="input input-bordered w-full max-w-xs"
             />
             <label className="label">
-              <span className="label-text-alt text-in">
-                Forgot Password?
-              </span>
+              <span className="label-text-alt text-in">Forgot Password?</span>
             </label>
             <button className="bg-slate-600 text-white rounded-md p-2 font-semibold">
               Login
             </button>
-           
           </div>
-          <h1 className="text-center mt-3">Haven’t an account? <span className="font-semibold">Signup</span> </h1>
+          <h1 className="text-center mt-3">
+            Haven’t an account? <span className="font-semibold">Signup</span>{" "}
+          </h1>
         </ul>
       </div>
 
       <div className="dropdown dropdown-end">
         <label
           tabIndex={0}
-          className="text-white lg:flex hidden bg-black p-3 rounded-lg hover:bg-white hover:text-black mr-5"
+          className="text-white lg:flex hidden bg-black p-2 rounded-lg hover:bg-white hover:text-black mr-5"
         >
           Signup
         </label>
-       <ul
+        <ul
           tabIndex={0}
           className="dropdown-content menu p-2 
   mt-10 mr-96 p-10 
@@ -307,142 +312,156 @@ const Nav = () => {
       <a href="#" className="mr-4 lg:pl-10 inline-flex items-center">
         <img src={images2} alt="" />
       </a>
-    
+
       <button
         className="text-white bg-black inline-flex rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
         data-target="#navigation"
       >
-      <a href="#my-modal-2" className="btn bg-black border-none hover:bg-black "> <img  src={images1} alt="" /></a>
-      <div>
-  <div className="modal" id="my-modal-2">
-    <div className="modal-box">
-    <ul
-          tabIndex={0}
-          className="dropdown-content menu "
+        <a
+          href="#my-modal-2"
+          className="btn bg-black border-none hover:bg-black "
         >
-           <div className="modal-action">
-       <a href="#" className="btn w-8">X</a>
-      </div>
-          <h1 className="text-center text-xl text-black font-bold">Welcome to signup</h1>
-          <img className="w-20 ml-28" src={images2} alt="" />
-          <div className="form-control max-w-xs">
-            <label className="label">
-              <span className="label-text">Username Or email</span>
-            </label>
-            <input
-              type="text"
-              placeholder="Type here"
-              className="input input-bordered w-full max-w-xs"
-            />
-            <label className="label">
-              <span className="label-text-alt text-red-600">
-                Username email is required
-              </span>
-            </label>
+          {" "}
+          <img src={images1} alt="" />
+        </a>
+        <div>
+          <div className="modal" id="my-modal-2">
+            <div className="modal-box">
+              <ul tabIndex={0} className="dropdown-content menu ">
+                <div className="modal-action">
+                  <a href="#" className="btn w-8">
+                    X
+                  </a>
+                </div>
+                <h1 className="text-center text-xl text-black font-bold">
+                  Welcome to signup
+                </h1>
+                <img className="w-20 ml-28" src={images2} alt="" />
+                <div className="form-control max-w-xs">
+                  <label className="label">
+                    <span className="label-text">Username Or email</span>
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Type here"
+                    className="input input-bordered w-full max-w-xs"
+                  />
+                  <label className="label">
+                    <span className="label-text-alt text-red-600">
+                      Username email is required
+                    </span>
+                  </label>
+                </div>
+                <div className="form-control max-w-xs">
+                  <label className="label">
+                    <span className="label-text">Password</span>
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Type here"
+                    className="input input-bordered w-full max-w-xs"
+                  />
+                </div>
+                <div className="form-control mb-24 max-w-xs">
+                  <label className="label">
+                    <span className="label-text">Confirm Password</span>
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Type here"
+                    className="input input-bordered w-full max-w-xs"
+                  />
+                  <label className="label">
+                    <span className="label-text-alt text-red-600">
+                      Password is not match
+                    </span>
+                  </label>
+                  <button className="bg-slate-600 text-white rounded-md p-2 font-semibold">
+                    Signup
+                  </button>
+                  <div className="divider">or</div>
+                  <button className="bg-white text-gray-600 rounded-md border border-gray-400 p-2 flex gap-6 font-semibold">
+                    <img className="w-5 ml-12" src={images3} alt="" />
+                    <h1> continue in google</h1>
+                  </button>
+                  <button className="bg-white mt-2  text-gray-600 rounded-md border border-gray-400 p-2 flex gap-6 font-semibold">
+                    <img className="w-5 ml-12" src={images4} alt="" />
+                    <h1> continue in facebook</h1>
+                  </button>
+                  <button className="bg-white mt-2  text-gray-600 rounded-md border border-gray-400 p-2 flex gap-6 font-semibold">
+                    <img className="w-5 ml-12" src={images5} alt="" />
+                    <h1> continue in twitter</h1>
+                  </button>
+                </div>
+              </ul>
+            </div>
           </div>
-          <div className="form-control max-w-xs">
-            <label className="label">
-              <span className="label-text">Password</span>
-            </label>
-            <input
-              type="text"
-              placeholder="Type here"
-              className="input input-bordered w-full max-w-xs"
-            />
-          </div>
-          <div className="form-control mb-24 max-w-xs">
-            <label className="label">
-              <span className="label-text">Confirm Password</span>
-            </label>
-            <input
-              type="text"
-              placeholder="Type here"
-              className="input input-bordered w-full max-w-xs"
-            />
-            <label className="label">
-              <span className="label-text-alt text-red-600">
-                Password is not match
-              </span>
-            </label>
-            <button className="bg-slate-600 text-white rounded-md p-2 font-semibold">
-              Signup
-            </button>
-            <div className="divider">or</div>
-            <button className="bg-white text-gray-600 rounded-md border border-gray-400 p-2 flex gap-6 font-semibold">
-              <img className="w-5 ml-12" src={images3} alt="" />
-              <h1> continue in google</h1>
-            </button>
-            <button className="bg-white mt-2  text-gray-600 rounded-md border border-gray-400 p-2 flex gap-6 font-semibold">
-              <img className="w-5 ml-12" src={images4} alt="" />
-              <h1> continue in facebook</h1>
-            </button>
-            <button className="bg-white mt-2  text-gray-600 rounded-md border border-gray-400 p-2 flex gap-6 font-semibold">
-              <img className="w-5 ml-12" src={images5} alt="" />
-              <h1> continue in twitter</h1>
-            </button>
-          </div>
-        </ul>
-      
-    </div>
-  </div>
         </div>
       </button>
       <button
         className="text-white bg-black inline-flex rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
         data-target="#navigation"
       >
-      <a href="#my-modal-2" className="btn bg-black border-none hover:bg-black "> <img  src={images} alt="" /></a>
-      <div>
-  <div className="modal" id="my-modal-2">
-    <div className="modal-box">
-    <ul
-          tabIndex={0}
-          className=""
+        <a
+          href="#my-modal-2"
+          className="btn bg-black border-none hover:bg-black "
         >
-          <div className="modal-action">
-       <a href="#" className="btn w-8">X</a>
-      </div>
-          <h1 className="text-center text-xl text-black font-bold">Welcome to Login</h1>
-          <img className="w-20+ ml-28" src={images2} alt="" />
-          <div className="form-control  max-w-xs">
-            <label className="label">
-              <span className="label-text">Username Or email</span>
-            </label>
-            <input
-              type="text"
-              placeholder="Type here"
-              className="input input-bordered w-full max-w-xs"
-            />
-            <label className="label">
-              <span className="label-text-alt text-red-600">
-                Username email is required
-              </span>
-            </label>
+          {" "}
+          <img src={images} alt="" />
+        </a>
+        <div>
+          <div className="modal" id="my-modal-2">
+            <div className="modal-box">
+              <ul tabIndex={0} className="">
+                <div className="modal-action">
+                  <a href="#" className="btn w-8">
+                    X
+                  </a>
+                </div>
+                <h1 className="text-center text-xl text-black font-bold">
+                  Welcome to Login
+                </h1>
+                <img className="w-20+ ml-28" src={images2} alt="" />
+                <div className="form-control  max-w-xs">
+                  <label className="label">
+                    <span className="label-text">Username Or email</span>
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Type here"
+                    className="input input-bordered w-full max-w-xs"
+                  />
+                  <label className="label">
+                    <span className="label-text-alt text-red-600">
+                      Username email is required
+                    </span>
+                  </label>
+                </div>
+                <div className="form-control  max-w-xs">
+                  <label className="label">
+                    <span className="label-text">Password</span>
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Type here"
+                    className="input input-bordered w-full max-w-xs"
+                  />
+                  <label className="label">
+                    <span className="label-text-alt text-in">
+                      Forgot Password?
+                    </span>
+                  </label>
+                  <button className="bg-slate-600 text-white rounded-md mb-20 p-2 font-semibold">
+                    Login
+                  </button>
+                </div>
+                <h1 className="text-center mt-3">
+                  Haven’t an account?{" "}
+                  <span className="font-semibold">Signup</span>{" "}
+                </h1>
+              </ul>
+            </div>
           </div>
-          <div className="form-control  max-w-xs">
-            <label className="label">
-              <span className="label-text">Password</span>
-            </label>
-            <input
-              type="text"
-              placeholder="Type here"
-              className="input input-bordered w-full max-w-xs"
-            />
-            <label className="label">
-              <span className="label-text-alt text-in">
-                Forgot Password?
-              </span>
-            </label>
-            <button className="bg-slate-600 text-white rounded-md mb-20 p-2 font-semibold">
-              Login
-            </button>
-           
-          </div>
-          <h1 className="text-center mt-3">Haven’t an account? <span className="font-semibold">Signup</span> </h1>
-        </ul>
-      
-    </div>
-  </div>
         </div>
       </button>
       <button
@@ -471,7 +490,7 @@ const Nav = () => {
         } lg:hidden top-navbar w-full lg:flex-grow lg:w-auto`}
         id="navigation"
       >
-        <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-end pr-5 flex flex-col lg:h-auto">
+        <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-end pr-5 flex flex-col lg:h-auto ">
           {navLinks}
         </div>
       </div>

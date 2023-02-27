@@ -4,19 +4,19 @@ import images1 from "../images/flutter1.png";
 
 const CardBanner = () => {
     return (
-    <d iv className='mb-10 lg:mb-1'>
+    <div className='mb-10 lg:mb-1 bg-base-100 lg:p-1 lg:mb-10 '>
             <div className='grid lg:grid-cols-2 mt-16 gap-10'>
-            <div className='lg:grid w-auto
+            <div className='lg:grid  w-auto
             ' >
-               <img src={images} alt=""/> 
+               <img className='rounded-lg' src={images} alt=""/> 
             </div>
             <div className='hidden lg:grid w-full
             ' style={{width:"590px", height: '406px'}}>
-            <img src={images1} alt=""/>  
+            <img className='rounded-lg' src={images1} alt=""/>  
             </div>
         </div>
        
-    </d>
+    </div>
     );
 };
 

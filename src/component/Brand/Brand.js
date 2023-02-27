@@ -17,7 +17,9 @@ import images6 from "../images/logo5.png";
 
 const Brand = () => {
   return (
-    <div className="lg:pl-10 hidden lg:flex mt-10">
+    <div>
+        <h1 className="text-3xl text-black font-bold text-center mt-4">Our Partner</h1>
+        <div className="lg:pl-10 hidden lg:flex mt-10">
       
       <Swiper
         modules={[Navigation, Pagination,  A11y, Autoplay]}
@@ -103,6 +105,8 @@ const Brand = () => {
       </Swiper>
       
     </div>
+    </div>
+   
   );
 };
 

@@ -1,27 +1,14 @@
 import React from 'react';
-import Design from '../../Design/Design';
-import Brand from '../Brand/Brand';
-import Brand2 from '../Brand/Brand2';
-import Card2 from '../Card2/Card2';
-
-import CardBanner from '../CardBanner/CardBanner';
-import Course from '../Course/Course';
-import Course2 from '../Course/Course2';
 import images from "../images/cover-page2.png";
-import Logos from '../Logos/Logos';
-import Team from '../Team/Team';
-import Card1 from './../Card1/Card1';
-import Card3 from './../Card3/Card3';
+import AppImg from './AppImg';
 
 
-
-const Home = () => {
+const Restaurant = () => {
     return (
         <div>
-
-<div className="carousel w-full">
+               <div className="carousel w-full">
   <div id="slide1" className="carousel-item relative w-full">
-    <img src={images} className="lg:h-4/5 w-full" />
+    <img src={images} className="w-full" />
     <div className="absolute flex  justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide4" className="btn btn-circle lg:w-8 w-5 h-2">❮</a> 
       <a href="#slide2" className="btn btn-circle lg:w-8 w-5 h-2">❯</a>
@@ -42,7 +29,7 @@ const Home = () => {
   
  
   <div id="slide2" className="carousel-item relative w-full">
-  <img src={images} className="lg:h-4/5 w-full"  />
+  <img src={images} className="w-full" />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide1" className="btn lg:w-8 w-5 h-2 btn-circle">❮</a> 
       <a href="#slide3" className="btn lg:w-8 w-5 h-2 btn-circle">❯</a>
@@ -61,7 +48,7 @@ const Home = () => {
     </div>
   </div> 
   <div id="slide3" className="carousel-item relative w-full">
-  <img src={images} className="lg:h-4/5 w-full" />
+  <img src={images} className="w-full" />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide2" className="btn lg:w-8 w-5 h-2 btn-circle lg:w-8 w-5 h-2">❮</a> 
       <a href="#slide4" className="btn lg:w-8 w-5 h-2 btn-circle lg:w-8 w-5 h-2">❯</a>
@@ -79,32 +66,13 @@ const Home = () => {
   </div>
     </div>
   </div> 
- 
+  <div class="">
+
 </div>
-   
-
-<div className='bg-sky-300 text-black rounded-full font-bold'>
-    <h2 className='text-center text-black  lg:text-2xl p-2 lg:mt-0 mt-10 lg:-mt-10 mb-10 '>Top Category</h2>
 </div>
-<Course></Course>
-<Card1></Card1>
-<Brand></Brand>
-<Brand2></Brand2>
-<Course2></Course2>
-<Card1></Card1>
-<CardBanner></CardBanner>
-<Design></Design>
-<Card2></Card2>
-<Brand></Brand>
-<Brand2></Brand2>
-<Card3></Card3>
-<Team></Team>
-<CardBanner></CardBanner>
-
-
-
+<AppImg></AppImg>
         </div>
     );
 };
 
-export default Home;
+export default Restaurant;

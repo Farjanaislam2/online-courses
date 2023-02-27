@@ -159,7 +159,7 @@ const Card2 = () => {
  
       </div>
       <div>
-    <h1 className='lg:text-3xl text-black text-center font-bold mt-10'>Our Brand</h1>
+
    </div>
       </div>
     );

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import images from "../images/shopping.png";
 import images1 from "../images/school.png";
 import images2 from "../images/gaming.png";
@@ -9,11 +9,12 @@ import images6 from "../images/hotel.png";
 import images7 from "../images/hotel2.png";
 import { Link } from "react-router-dom";
 
-const Card1 = () => {
-  return (
-  <div>
-     <div className="border-b-2 pb-10 border-white">
-     <div className="grid mt-20 lg:pl-8 lg:pr-8 gap-12 lg:grid-cols-4 grid-cols-2 container">
+const Projects = () => {
+    return (
+        <div>
+            <h1 className='lg:text-2xl text-center font-semibold '>Related Project</h1>
+            <div>
+            <div className="grid mt-10 lg:pl-8 lg:pr-8 lg:gap-12 gap-6  lg:grid-cols-4 grid-cols-2 container">
      <div className="card  text-black bg-white shadow-xl">
   <figure><img className="w-full" src={images5} alt="Shoes" /></figure>
  <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
@@ -50,7 +51,7 @@ const Card1 = () => {
   </div>
 </div>
      
-      <div className="card text-black bg-white shadow-xl">
+      <div className="card lg:grid hidden text-black bg-white shadow-xl">
   <figure><img className="w-full" src={images1} alt="Shoes" /></figure>
  <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
    <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
@@ -67,7 +68,7 @@ const Card1 = () => {
     </div>
   </div>
 </div>
-      <div className="card text-black  bg-white shadow-xl">
+      <div className="card lg:grid hidden text-black  bg-white shadow-xl">
   <figure><img className="w-full" src={images2} alt="Shoes" /></figure>
  <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
    <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
@@ -84,7 +85,7 @@ const Card1 = () => {
     </div>
   </div>
 </div>
-      <div className="card text-black bg-white shadow-xl">
+      <div className="card lg:grid hidden text-black bg-white shadow-xl">
   <figure><img className="w-full" src={images3} alt="Shoes" /></figure>
  <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
    <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
@@ -101,7 +102,7 @@ const Card1 = () => {
     </div>
   </div>
 </div>
-      <div className="card text-black bg-white shadow-xl">
+      <div className="card lg:grid hidden text-black bg-white shadow-xl">
   <figure><img className="w-full" src={images4} alt="Shoes" /></figure>
  <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
    <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
@@ -119,7 +120,7 @@ const Card1 = () => {
   </div>
 </div>
  
-      <div className="card text-black bg-white shadow-xl">
+      <div className="card lg:grid hidden text-black bg-white shadow-xl">
   <figure><img className="w-full" src={images6} alt="Shoes" /></figure>
  <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
    <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
@@ -136,7 +137,7 @@ const Card1 = () => {
     </div>
   </div>
 </div>
-      <div className="card text-black bg-white shadow-xl">
+      <div className="card lg:grid hidden text-black bg-white shadow-xl">
   <figure><img className="w-full" src={images7} alt="Shoes" /></figure>
  <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
    <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
@@ -154,16 +155,16 @@ const Card1 = () => {
   </div>
 </div>
 
+
     </div>
-<div className="flex justify-center">
- <a className="text-center text-white rounded-lg p-2 mt-10 lg:text-xl w-1/4" href="/categories" style={{ backgroundColor: "#530A0A" }}><h1  >see more</h1></a>
+            </div>
+            <div className="flex justify-center mb-5">
+ <a className="text-center text-white rounded-lg p-2 mt-10 bg-black lg:text-xl w-1/4" href="/categories"><h1  >see more about project</h1></a>
 
 
 </div>
-   </div>
- 
-  </div>
-  );
+        </div>
+    );
 };
 
-export default Card1;
+export default Projects;
