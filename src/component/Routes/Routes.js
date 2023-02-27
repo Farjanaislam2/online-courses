@@ -4,6 +4,7 @@ import Main from "../../Layout/Main";
 import Category from "../Category/Category";
 import Restaurant from "../SingleCategory/Restaurant";
 import Cart from "../SingleCategory/Cart";
+import Checkout from './../SingleCategory/Checkout';
 
 export const router =createBrowserRouter([
     {
@@ -25,7 +26,11 @@ export const router =createBrowserRouter([
             {
                 path:'/addToCart',
                 element:<Cart></Cart>
-            }
+            },
+            {
+                path:'/checkout',
+                element:<Checkout></Checkout>
+            },
         ]
     }
 ])
