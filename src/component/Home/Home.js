@@ -54,7 +54,7 @@ const Home = () => {
         <div class="mb-3 xl:w-96">
         <div class="input-group rounded-full relative flex  items-stretch w-full mb-4">
          
-        <input type="search" class="form-control w-1/2 h-6 lg:w-full lg:h-auto relative flex-auto min-w-0 block w-full px-3 py-1.5 text-base font-normal text-black bg-white bg-clip-padding" placeholder="" aria-label="Search" aria-describedby="button-addon2"/>
+        <input type="search" class="form-control w-1/2  h-6 lg:w-full lg:h-auto relative flex-auto min-w-0 block  px-3 py-1.5 text-base font-normal text-black bg-white bg-clip-padding" placeholder="" aria-label="Search" aria-describedby="button-addon2"/>
          
           <button class="btn btn-xs lg:btn-md inline-block  bg-black text-white font-medium text-xs hover:bg-black uppercase shadow-md  flex items-center" type="button" id="button-addon2">
             Search
@@ -88,6 +88,7 @@ const Home = () => {
 <Brand></Brand>
 <Brand2></Brand2>
 <Card3></Card3>
+
 <Team></Team>
 <CardBanner></CardBanner>
 
