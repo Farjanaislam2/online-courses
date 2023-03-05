@@ -46,7 +46,7 @@ const Home = () => {
       {
         sliderItems.map(slider =>   <div key={slider.id} id={slider.id} className="carousel-item relative w-full">
         <img src={slider.imageSlider} className="lg:h-4/5 w-full" />
-        <div className="absolute flex  justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <div className="absolute flex  justify-between transform -translate-y-1/2 left-5 right-5 lg:top-52 top-1/2">
           <a href={`#${slider.btnLeft}`} className="btn btn-circle lg:w-8 w-5 h-2">❮</a> 
           <a href={`#${slider.btnRight}`} className="btn btn-circle lg:w-8 w-5 h-2">❯</a>
         </div>
@@ -56,11 +56,11 @@ const Home = () => {
       }
 
 
-<div className='absolute lg:top-[45%] top-[18%] left-[50%] translate-x-[-50%] translate-y-[-50%] '>
-        <div class="mb-3 xl:w-96">
-        <div class="input-group rounded-full relative flex  items-stretch w-full mb-4">
+<div className='absolute lg:top-[45%] top-[18%] left-[50%] translate-x-[-50%] translate-y-[-50%] lg:w-7/12  '>
+        <div class="mb-3 ">
+        <div class="input-group   relative flex  items-stretch mb-4">
          
-        <input type="search" className="form-control w-1/2 h-6 lg:w-full lg:h-auto relative flex-auto min-w-0 block  px-3 py-1.5 text-base font-normal text-black bg-white bg-clip-padding" placeholder="" aria-label="Search" aria-describedby="button-addon2"/>
+        <input type="search" className="form-control block w-1/2 h-6 lg:w-full lg:h-auto relative flex-auto min-w-0 block  px-3 py-1.5 text-base font-normal text-black bg-white bg-clip-padding" placeholder="" aria-label="Search" aria-describedby="button-addon2"/>
       
           <button class="btn btn-xs lg:btn-md inline-block  bg-black text-white font-medium text-xs hover:bg-black uppercase shadow-md  flex items-center" type="button" id="button-addon2">
             Search

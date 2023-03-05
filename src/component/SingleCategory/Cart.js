@@ -36,7 +36,7 @@ const Cart = () => {
         <h1>Price is in US dollars and excludes tax</h1>
       </div>
       <div className="p-7 flex lg:mt-10 justify-between">
-        <button className="p-3 pl-5 pr-5 bg-base-200 text-gray-600 border border-gray-400 rounded-md">Keep Browsing</button>
+        <button className="p-3 pl-5 pr-5 bg-base-200 text-gray-600 border border-gray-400 rounded-md"><Link to ='/'>Keep Browsing</Link></button>
         <button className="p-3 pl-7 pr-7 bg-green-700 text-white rounded-md"><Link to ='/checkout'>Checkout</Link></button>
       </div>
     </div>

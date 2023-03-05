@@ -14,7 +14,7 @@ const App = () => {
         <div>
           <div className="hero  ">
   <div className="hero-content flex-col lg:flex-row">
-  <div className="text-center lg:text-left w-auto lg:p-10" >
+  <div className="text-center lg:text-left w-auto lg:p-10 lg:-mt-24" >
   <div className="card  text-black bg-white shadow-xl">
   <figure><img className="shadow-xl" src={images} alt="Shoes" /></figure>
  <div className="absolute bg-black top-0 right-0 bottom-0 left-0 w-full lg:h-auto h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-60 transition duration-300 ease-in-out ">

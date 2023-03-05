@@ -1,6 +1,6 @@
 import React from "react";
 import images from "../images/teacher.png";
-import images2 from "../images/c1.avif";
+
 import images3 from "../images/c2.avif";
 import images4 from "../images/c3.avif";
 import images5 from "../images/c4.avif";
