@@ -4,7 +4,7 @@ const Course = () => {
     return (
         <div className='flex w-full  justify-evenly bg-white text-white' style={{gap:'1px'}}>
             <div className='p-3 text-center hover:font-bold w-full' style={{ backgroundColor: "#530A0A" }}>
-                <h1 className=''>Java</h1>
+           <a href=""> <h1 className=''>Java</h1></a>
             </div>
             <div className='columns-1 p-3 justify-center lg:flex hidden text-center hover:font-bold w-full ' style={{ backgroundColor: "#530A0A"  }}>
                 <h1>UI/UX</h1>

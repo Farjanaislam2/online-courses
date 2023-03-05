@@ -26,11 +26,11 @@ const App = () => {
     <div className="card flex-shrink-0 lg:w-1/2">
       <div className="card-body">
        <div className='flex'>
-       <h1 className='lg:text-xl font-bold'>Flutter Restaurant App </h1>
+       <h1 className='lg:text-xl font-bold text-black'>Flutter Restaurant App </h1>
        <p className='text-red-500 font-bold ml-10 lg:ml-80'>49$</p>
        </div>
-        <p>User Interface (UI) — A specialization of web design that deals with the controls people use to interact with a website or app, including button displays and gesture controls. User Experience (UX) — Another specialization of web design, this one dealing with user behavior and feeling when using the site or app </p>
-        <small>By navieasoft.ltd</small>
+        <p className='text-black'>User Interface (UI) — A specialization of web design that deals with the controls people use to interact with a website or app, including button displays and gesture controls. User Experience (UX) — Another specialization of web design, this one dealing with user behavior and feeling when using the site or app </p>
+        <small className='text-black'>By navieasoft.ltd</small>
      <div className='flex mt-5'>
      <img className='w-5' src={images2} 
         alt=""/>
