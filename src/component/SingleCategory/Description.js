@@ -1,5 +1,4 @@
 import React from 'react';
-import Tab from './Tab';
 
 const Description = () => {
     return (
@@ -32,7 +31,7 @@ const Description = () => {
 <div>
     
 </div>
-<Tab></Tab>
+
         </div>
     );
 };

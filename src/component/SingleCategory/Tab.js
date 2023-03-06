@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+import {shopping,school,gaming,gaming2,marketing,food,hotel,hotel2} from "../images";
 import images from "../images/shopping.png";
 import images1 from "../images/school.png";
 import images2 from "../images/gaming.png";
@@ -17,9 +18,8 @@ const Tab = () => {
     {
         id:1,
         tabTitle:"Java",
-        title:"title 1",
         content:{
-            'images':"images",
+           
             'name': 'Restuarent Web Templete',
             'button':'add to cart'
             
@@ -28,22 +28,37 @@ const Tab = () => {
     {
         id:2,
         tabTitle:"ui/ux",
-        title:"title 2",
-        content:'b'
+        content:{
+            'picture':"images1",
+            'name': 'Restuarent Web Templete',
+            'button':'add to cart'
+            
+        }
     },
     {
         id:3,
         tabTitle:"Theme",
         title:"title 3",
-        content:'c'
+        content:{
+            'picture':"images2",
+            'name': 'Restuarent Web Templete',
+            'button':'add to cart'
+            
+        }
     },
     {
         id:4,
         tabTitle:"Templete",
         title:"title 4",
-        content:'d'
+        content:{
+            'picture':"images3 ",
+            'name': 'Restuarent Web Templete',
+            'button':'add to cart'
+            
+        }
     },
  ]
+
  const handleButton=(e)=>{
     setToggleState (e.target.id)
  }
@@ -68,11 +83,24 @@ const Tab = () => {
                     {
                     toggleState===`${tab.id}` &&
                    
-                          <div className="lg:mt-14 mt-5 lg:ml-0 ml-16">
-          <h1 className="lg:text-xl font-semibold text-black">{tab.content.name}</h1>
-          <small>By navieasoft.ltd</small>
-          <h2 className="text-2xl text-red-600 font-bold mt-3">49 $</h2>
-        </div>
+                    <div className="card  text-black bg-white shadow-xl">
+                    <figure><img className="w-full" src={shopping} alt="Shoes" /></figure>
+                   <div className="absolute top-0 right-0 bottom-0 left-0 w-full lg:h-52 h-24 overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-white">
+                     <button className="text-white rounded-full lg:btn-md btn-xs lg:p-2  absolute lg:mt-20 mt-8 ml-6 lg:ml-20 font-bold"style={{ backgroundColor: "#530A0A" }}>add to cart</button>
+                    </div>
+                    <div className="card-body p-2">
+                      <h2 className="card-title">
+                     {tab.content.name}
+                      </h2>
+                      <p className="text-blue-700">
+                            17895+ views
+                            </p>
+                      <div className="card-actions justify-center text-blue-300 hover:text-blue-500">
+                    <Link to="/restuarant">Details</Link>
+                       
+                      </div>
+                    </div>
+                  </div>
                    
                     }
 

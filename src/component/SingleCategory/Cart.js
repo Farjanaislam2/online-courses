@@ -13,7 +13,7 @@ const Cart = () => {
         Successful added to your cart
       </h1>
       <div className="lg:flex lg:gap-20 bg-blue-100 border border-gray-400 ">
-        <div>
+       <div>
           <img className="lg:w-72 w-52 lg:p-5 ml-16 lg:ml-0 lg:mt-0 mt-5 rounded-sm" src={images1} alt="" />
         </div>
         <div className="lg:mt-14 mt-5 lg:ml-0 ml-16">
